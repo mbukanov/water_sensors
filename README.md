@@ -15,8 +15,8 @@ Byte num | Bytes count | Description
 
 
 #### Method(byte 0):  ####
-0 - GET  
-1 - SET (not implemented)  
+1 - GET  
+2 - SET (not implemented)  
 
 #### Device number(byte 1):  ####
 Depends pin number:  
@@ -29,7 +29,10 @@ PB0 - 6(D2)
 PB1 - 7(D1)  
 PB2 - 8(D0)  
 
-#### Device type: not implemented, 0 always ####
+#### Device type: NOT IMPLEMENTED, 1 always ####
+* WATER = 1 
+* SMOKE =  2  
+* TEMPERATURE = 3  
 
 #### Bytes 3 - 11 reserved, 0 always ####
 
