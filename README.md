@@ -4,7 +4,7 @@
 
 Frame len: 16 bytes
 
-byte num | bytes count | Description  
+Byte num | Bytes count | Description  
 -------- | ---------- | -----------
 0 | 1 byte | Method  
 1 | 1 byte | Device number  
